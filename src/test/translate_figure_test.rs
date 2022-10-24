@@ -1,8 +1,6 @@
 use crate::model::{
     point::Point,
     rectangle::Rectangle,
-    polygon::Polygon,
-    behavier::figure::Figure,
 };
 use crate::controller::translate::Translate;
 
