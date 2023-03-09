@@ -3,7 +3,7 @@ name: CI flow for cad2d
 on: [push]
 
 env:
-  SLACK_WEBHOOK: ${{ secrets.AWS_ACCESS_KEY_ID }}
+  SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
 
 jobs:
   ci:
